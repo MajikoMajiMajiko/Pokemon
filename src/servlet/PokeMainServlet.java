@@ -56,11 +56,11 @@ public class PokeMainServlet extends HttpServlet {
 			Pokemon pokemon = result;
 			request.setAttribute("pokemon", pokemon);
 			//ずかん画面へ遷移
-			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/JSP/PicturebookResult.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/PicturebookResult.jsp");
 		dispatcher.forward (request, response);
 		} else {
 			//エラー画面へ遷移
-		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/JSP/PicturebookResultError.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/PicturebookResultError.jsp");
 		dispatcher.forward (request, response);
 		}
 

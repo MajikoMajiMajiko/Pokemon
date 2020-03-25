@@ -56,11 +56,11 @@ public class PokemonRegisterServlet extends HttpServlet {
 		//insertResultの中身によって処理を分岐
 		if(insertResult == true) {
 			//登録成功画面へ遷移
-			RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/RegisterSccess.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/PokemonRegisterSccess.jsp");
 		dispatcher.forward (request, response);
 		} else {
 			//登録失敗画面へ遷移
-			RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/RegisterFailed.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/jsp/PokemonRegisterFailed.jsp");
 		dispatcher.forward (request, response);
 		}
 

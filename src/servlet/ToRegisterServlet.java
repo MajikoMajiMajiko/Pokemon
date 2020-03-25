@@ -28,7 +28,7 @@ public class ToRegisterServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//登録画面へリダイレクト
-		response.sendRedirect("/Pokemon/jsp/Register.jsp");
+		response.sendRedirect("/Pokemon/jsp/PokemonRegister.jsp");
 	}
 
 	/**
