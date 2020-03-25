@@ -1,6 +1,6 @@
 package test;
 
-import dao.PokemonDAO;
+import DAO.PokemonDAO;
 import model.PokeSearch;
 import model.Pokemon;
 

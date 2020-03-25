@@ -1,6 +1,6 @@
 package test;
 
-import dao.PokemonRegisterDAO;
+import DAO.PokemonRegisterDAO;
 import model.PokeRegister;
 
 public class PokemonRegisterDAOTest {

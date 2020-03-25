@@ -1,6 +1,6 @@
 package test;
 
-import dao.LoginDAO;
+import DAO.LoginDAO;
 import model.Trainer;
 import model.TrainerSearch;
 

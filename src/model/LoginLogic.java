@@ -1,6 +1,6 @@
 package model;
 
-import dao.LoginDAO;
+import DAO.LoginDAO;
 
 public class LoginLogic {
 	public boolean execute(TrainerSearch trainerSearch) {
